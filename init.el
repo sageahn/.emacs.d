@@ -33,3 +33,5 @@
 
 (add-to-list 'load-path "~/.emacs.d/modules/")
 (put 'narrow-to-region 'disabled nil)
+
+(global-set-key [C-kanji] 'set-mark-command)
